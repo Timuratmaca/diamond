@@ -14,7 +14,7 @@ header a {
     transition: 0.5s;
 }
 
- a:hover {
+a:hover {
     color: #222;
     opacity: 1;
 }
@@ -37,12 +37,13 @@ header a {
     width: 90%;
     margin: auto;
     max-width: 1200px;
-    
+
 }
 
-.air{
+.air {
     width: 40%;
 }
+
 .headerTop {
     border-bottom: 1px solid #eee;
 }
@@ -101,19 +102,24 @@ video {
     color: white;
     font-family: "Playfair Display", serif;
 }
-.product{
+
+.product {
     width: 25%;
-    display:block;
-}
-.productTop{
-    position: relative; 
-}
-.product img{
-    width: 100%;
     display: block;
 }
 
-.heart{
+.productTop {
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    display: block;
+    height: 70%;
+    object-fit: cover;
+}
+
+.heart {
     width: 50px;
     height: 50px;
     display: block;
@@ -125,37 +131,47 @@ video {
     top: 0;
     right: 0;
     opacity: 0.5;
-    
+
 }
-.products .container{
-    display:flex;
+
+.products .container {
+    display: flex;
     gap: 40px;
 }
-.slides{
+
+.slides {
     height: 2px;
     width: 100%;
     position: absolute;
     bottom: 5px;
-    display:flex;
+    display: flex;
 }
-.slide{
+
+.slide {
     background-color: #ffffff;
     width: 25%;
     height: 2px;
     margin: 0 2px;
 }
+
 .hero h3 {
     text-transform: uppercase;
 }
-.productBottom{
+
+.productBottom {
     display: flex;
-    margin:  20px  0;
+    margin: 20px 0;
     justify-content: space-between;
     font-family: "Raleway", sans-serif;
 
 }
 
-.arrowLink{
+.giftLeft img {
+    filter: invert(90%);
+}
+
+.arrowLink {
+    color: rgb(0, 0, 0);
     font-family: "Raleway", sans-serif;
     display: flex;
     align-items: center;
@@ -164,16 +180,27 @@ video {
     transition: .3s;
     text-transform: uppercase;
 }
-.arrowLink:hover{
+
+.arrowLink:hover {
     opacity: 0.5;
 }
-.arrowLink img{
+
+.arrowLink img {
     height: 20px;
     display: block;
     margin-left: 20px;
 }
+
 .category img {
     width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    color: #222;
+
 }
 
 .categories .container {
@@ -211,8 +238,6 @@ h2 {
     color: white;
 }
 
-
-
 .info a {
     color: white;
 }
@@ -222,6 +247,122 @@ h2 {
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 50px;
+}
+
+.email {
+    padding: 200px 0;
+}
+
+.email .container {
+    /* margin: auto; */
+    text-align: center;
+    margin: auto;
+    /* background-color: pink; */
+}
+
+.email h3 {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.emailForm {
+    max-width: 700px;
+    justify-content: center;
+    display: flex;
+    /* background-color: aqua; */
+    margin: auto;
+
+}
+
+.emailForm input {
+    margin-right: 10px;
+    width: calc(60% - 10px);
+    height: 40px;
+    padding: 0 10px;
+    outline: 1px solid greenyellow;
+}
+
+.emailForm button {
+    background-color: #333;
+    color: #ffffff;
+    width: 40%;
+    transition: 1s;
+    border: none;
+}
+
+.emailForm button:hover {
+    background-color: #101010;
+    color: #fe3002;
+    transform: rotate(3600deg);
+}
+
+.diamond {
+    width: 100px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 50px 0;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: #555;
+    font-family: "Raleway", sans-serif;
+    padding: 5px 0;
+}
+.socials a{
+    width:40px;
+    height: 40px;
+    display:flex;
+    background-size: contain;
+    border: 1px solid #555;
+    border-radius: 100px ;
+    padding: 0;
+    flex-direction: row;
+}
+#vk{
+    background-image: url("img/vk.svg");
+}
+#tlgrm{
+    background-image: url("img/telegram.svg");
+}
+#wtsp{
+    background-image: url("img/whatsapp.svg");
+}
+footer a::first-letter {
+    text-transform: capitalize;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aboutusP {
+    margin-top: 30px;
+    width: 800px;
+}
+
+.aboutus {
+    padding: 200px 0;
+    width: 100%;
 }
 
 .category {
@@ -252,13 +393,21 @@ p {
 .mens img {
     width: 200px;
 }
-.certificates{
+
+.certificates {
     background-color: #f0f0f0;
-    padding: 200px 0 ;
+    padding: 200px 0;
 }
-.certificates .container{
+
+.certificates .container {
+    align-items: center;
     display: flex;
 }
-.giftLeft{
+
+.giftLeft {
     width: 60%;
+}
+
+.giftLeft a {
+    text-decoration: none;
 }
