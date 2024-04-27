@@ -13,10 +13,33 @@ header a {
     padding: 0 10px;
     transition: 0.5s;
 }
-
+#heroLink{
+    color: white ;
+}
+.fixbuttons button{
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    right: 0px;
+    top: 150px;
+    z-index: 15;
+    background-image: url("img/heart.svg");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px 0  0 100px  ;
+    border: none;
+    background-color: white;
+    
+}
+#bagButton{
+    top: 210px;
+    background-image: url("img/bag.svg");
+    
+}
 a:hover {
     color: #222;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .left {
@@ -32,6 +55,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 .container {
     width: 90%;
@@ -315,6 +339,7 @@ footer {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 50px 0;
+    
 }
 
 .sections {
@@ -331,12 +356,20 @@ footer a {
 .socials a{
     width:40px;
     height: 40px;
-    display:flex;
-    background-size: contain;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid #555;
     border-radius: 100px ;
-    padding: 0;
-    flex-direction: row;
+    padding: 0;  
+    opacity: 0.3;
+    transition: 0.5s
+}
+
+
+.socials{
+    display: flex;
+    gap: 10px ;
 }
 #vk{
     background-image: url("img/vk.svg");
@@ -410,4 +443,9 @@ p {
 
 .giftLeft a {
     text-decoration: none;
+}
+.end p{
+    margin: 25px;
+    opacity: 0.3;
+    font-size: small;
 }

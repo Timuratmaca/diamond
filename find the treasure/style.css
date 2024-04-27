@@ -1,0 +1,71 @@
+*{font-family: 'Pixelify Sans', cursive;}
+
+body{
+    background-image: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#h1{
+    /*!! razmer bukv */
+    font-size: 100px ;
+    text-align: center;
+    text-transform: capitalize;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,176,70,1) 100%);
+    display:inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(240, 248, 255, 0);
+}
+.gamenumber{
+    width:120px;
+    margin-left: 690px;
+
+}
+#number{
+    background-color: rgb(255, 255, 255);
+    width:100px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow:0 0 10px black;
+}
+.headerContainer{
+    text-align: center;
+}
+#good{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.658);
+}
+.goodluckCont{
+    text-align: center;
+}
+#pirate{
+    width: 50px;
+    /* text-align:center; */
+    /*todo display: block; */
+    position: absolute;
+    left: 55px;
+    transition: 2s;
+    top:10px;
+    pointer-events: none;
+}
+#map{
+    /* text-align: center; */
+    /*todo margin-left: 510px; */
+    filter: saturate(7);
+    width:100%;
+    transition: 2s;
+}
+.game{
+    position: relative;
+    text-align: center;
+    margin:auto;
+    width:500px;
+    /* background-color: aliceblue; */
+    transition: 2s;
+}

@@ -1,0 +1,102 @@
+
+
+position:fixed =zafeksirovat teg na starince.teg nakladvayetsa na drugiye tegi
+// !sposab postavit absolutnıy teg po centru 
+    // !top: 50%;
+    // !left: 50%;
+    // !transform: translate(-50%,-50%);
+//! ---
+loading.style.pointerEvents="none"=nujna ştobı loading ne reagiroval na mışkuw
+
+floor=iz playavuyşaye çislo delayet obıçnoye çislo
+naprimer:3.12345=3 5.96=5!!!!!
+
+src=eto atribud v img gde nujna napisat nazvaniye kartinki
+createElement=zdelat teg
+push=zapehnut elemenet v masiv
+appendChild=stobı dabavit teg v drugoy teg
+font-size=razmer bukv
+object-fit=ştobı kartinki ne sjımalis
+object-fit: contain;= kartinki vidna polnastyu
+object-fit: cover;=kartinki obresayutsa
+ondragstart=kogda tı naçenayeş tenut kartinku
+game.classList.add("shake")=dobavlayet class shake
+animation=pozvalayet dobavlat animatciyu dla tega 
+@keyframes=kluçevıye kadrı
+
+
+filter: invert(1);= zdelat inversuyu cveta
+
+etot teg atveçayet za ikonki at sayta
+<link rel="shortcut icon" href="" type="">
+
+Сделать тег сильным
+; /* display: block; */
+
+Сделать тег средним:
+; /* display:inlane-block; */
+
+let: eto pirimennaya
+
+getElementsByClassName:nayti tegi po classu
+
+ucetel gmail: yerenkoff@gmail.com
+
+Чтобы поставить по центру теги со свойством display: inline-block, нужно их родителю задать text-align: center
+
+
+Чтобы поставить по центру теги со свойством display:block, нужно zadat margin:auto;
+
+
+padding-bottom= otsyup vnutri-snizu
+
+Чтобы тебя переносило на другой сайт, если ты нажал на параграф, нужно поставить параграф внутри тега <a href=""></a>
+
+overflow:hidden; = Чтобы у заголовка göz был марджин сверху,
+
+Calc нужен для того, чтобы из процентов вычитать пиксели
+
+font-weight: ; - вес шрифта (можно сделать толстые буквы или тонкие)
+
+zakrugleniye
+; border-radius: 00;
+
+eto svoyvastva stavit teg blije ili dalşe obezatelna doljno bıt position obsalute,fix i realatvie
+z-index:; 
+
+//! предотвратить обновление страницы
+event.preventDefault();
+
+input.value = буква из инпута
+
+//! в консоли выводится буква из инпута
+    console.log(input.value);
+
+ştobı ubrat mejdu dispolay-inline block ubrat malinkşye otstupı nujna ih raditilü zadat font-size:0;
+
+
+___________________________________________________________________________________________________________________________
+
+win + r 
+
+
+curl parrot.live
+color 2 & curl ascii.live/forrest
+curl telnet://towel.blinkenlights.nl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
